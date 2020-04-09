@@ -13,6 +13,7 @@ public class Test {
 	public static void main(String[] args) {
 		
 		UserDao userDao=new UserDaoImpl();
+		System.out.println("===========================");
 		//查询用户
 //		User user=userDao.getById(1001);
 //		System.out.println(user);
